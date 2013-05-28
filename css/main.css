@@ -1,0 +1,91 @@
+@import url(http://fonts.googleapis.com/css?family=Playfair+Display);
+/* \\\\\\\\\\\\\\\\\    DEMO CODE   ///////////////////////////////// */
+applet, object, iframe, body, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dd, dl, dt, li, ol, ul, fieldset, form, label, legend, caption, img, header, section {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  border: none;
+}
+
+.centerUp {
+  margin: 0 auto;
+  width: 960px;
+}
+
+body {
+  background: #fffceb;
+  color: #333;
+  font-size: 13px;
+  font-family: Arial, sans-serif;
+  font-family: 'Playfair Display', serif;
+  text-align: center;
+  color: #3a6a7e;
+}
+
+h1 {
+  font-size: 80px;
+  margin: 80px 0 100px;
+}
+
+h2 {
+  margin: 100px 0 0;
+  color: #eb5a3d;
+}
+
+p {
+  font-size: 20px;
+}
+
+.modal p {
+  font-size: 14px;
+  text-align: left;
+  margin: 10px 0 0;
+}
+.modal p:hover {
+  cursor: pointer;
+}
+
+a {
+  display: block;
+  width: 280px;
+  height: 50px;
+  margin: 0 auto;
+  margin-bottom: 80px;
+  padding: 30px 0 0;
+  font-size: 18px;
+  color: #fff;
+  text-decoration: none;
+  background: #eb5a3d;
+  -webkit-box-shadow: inset 0 1px 1px #ffbfb3, 0 2px 5px #732e20;
+  -moz-box-shadow: inset 0 1px 1px #ffbfb3, 0 2px 5px #732e20;
+  box-shadow: inset 0 1px 1px #ffbfb3, 0 2px 5px #732e20;
+  border: 1px solid #884335;
+}
+a:hover {
+  background: #ea5234;
+}
+
+/* \\\\\\\\\\\\\\\\\    END DEMO CODE   ///////////////////////////////// */
+/* \\\\\\\\\\\\\\\\\    MODAL CODE   ///////////////////////////////// */
+.overlay {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  display: none;
+}
+
+.modal {
+  display: none;
+  background: #eee;
+  padding: 0 20px 20px;
+  overflow: auto;
+  z-index: 1001;
+  position: absolute;
+  width: 500px;
+  min-height: 300px;
+}
+
+/* \\\\\\\\\\\\\\\\\    END MODAL CODE   ///////////////////////////////// */
